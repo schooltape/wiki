@@ -59,7 +59,7 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Install", link: "/installation" },
+      { text: "Install", link: "/install" },
     ],
 
     search: {
@@ -74,7 +74,7 @@ export default defineConfig({
             text: "Installation",
             collapsed: true,
             link: "/",
-            base: "/installation",
+            base: "/install",
             items: [
               { text: "Chrome", link: "/chrome" },
               { text: "Firefox", link: "/firefox" },

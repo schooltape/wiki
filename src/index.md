@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Install now!
-      link: /installation
+      link: /install
     - theme: alt
       text: Contributing
       link: /contributing

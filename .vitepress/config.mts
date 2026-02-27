@@ -47,7 +47,7 @@ export default defineConfig({
     //   gtag('config', 'G-HZBYCLKHJJ');`
     // ]
   ],
-  srcDir: "./src",
+  srcDir: "./docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {

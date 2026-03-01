@@ -28,7 +28,7 @@ export default defineConfig({
     ["meta", { name: "twitter:image:src", content: ogImage }],
     ["meta", { name: "twitter:title", content: ogTitle }],
     ["meta", { name: "twitter:description", content: ogDescription }],
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "favicon.ico" }],
     ["meta", { name: "google-site-verification", content: "MNXkcoht-xquAu3YMkI1_1YINAJUCcKrgZ6xL5N5pfY" }],
     [
       "script",

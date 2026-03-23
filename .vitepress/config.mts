@@ -95,7 +95,6 @@ export default defineConfig({
             ],
           },
           { text: "Compare", link: "/compare" },
-          { text: "Changelog", link: "/changelog" },
         ],
       },
       {

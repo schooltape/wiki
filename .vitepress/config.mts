@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import footnote from "markdown-it-footnote";
-import typedocSidebar from "../api/typedoc-sidebar.json";
+import typedocSidebar from "../docs/api/typedoc-sidebar.json";
 
 const ogTitle = "Schooltape - A free and open source web extension for Schoolbox!";
 const ogDescription = "A web extension that adds themes, plugins, and snippets to Schoolbox.";
@@ -109,6 +109,8 @@ export default defineConfig({
       },
       {
         text: "API",
+        link: "/",
+        base: "/api",
         items: typedocSidebar,
       },
     ],

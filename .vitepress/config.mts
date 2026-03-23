@@ -57,7 +57,7 @@ export default defineConfig({
       alt: "Schooltape logo",
     },
     editLink: {
-      pattern: "https://github.com/schooltape/schooltape.github.io/edit/main/src/:path",
+      pattern: "https://github.com/schooltape/wiki/edit/main/docs/:path",
     },
     nav: [
       { text: "Home", link: "/" },

@@ -8,7 +8,8 @@
   "readme": "none",
   "docsRoot": "./docs/api",
   "frontmatterGlobals": {
-    "outline": [2, 3]
+    "outline": [2, 3],
+    "editLink": false
   },
   "sidebar": {
     "pretty": true

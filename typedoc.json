@@ -1,4 +1,8 @@
 {
+  "$schema": "https://typedoc.org/schema.json",
   "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
-  "out": "./api"
+  "out": "./api",
+  "entryPoints": ["../serrator/src/index.ts"],
+  "tsconfig": "../serrator/tsconfig.json",
+  "skipErrorChecking": true
 }
